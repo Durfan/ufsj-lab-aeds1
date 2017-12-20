@@ -6,7 +6,7 @@ int main() {
 
   printf ("Valor: ");
   scanf ("%f", &num);
-  printf ("Valor lido: %d\n", num);
+  printf ("Valor lido: %f\n", num);
 
   return 0;
 }
