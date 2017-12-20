@@ -1,16 +1,3 @@
 
 *.json
-lista10/.DS_Store
-lista11/.DS_Store
-lista12/.DS_Store
-lista13/.DS_Store
-lista14/.DS_Store
-lista15/.DS_Store
-lista2/.DS_Store
-lista4/.DS_Store
-lista5/.DS_Store
-lista6/.DS_Store
-lista7/.DS_Store
-lista8/.DS_Store
-lista9/.DS_Store
-.DS_Store
+*.DS_Store
