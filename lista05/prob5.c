@@ -9,16 +9,16 @@
 
 int main() {
     int i, neg=0;
-    float vt[9], soma;
+    float vt[10], soma;
     
-    for (i=0;i<=9;i++){
-        printf("vt[%d]=", i);
+    for (i=0;i<10;i++){
+        printf("vt[%d]=", i+1);
         scanf("%f", &vt[i]);
     }
     
-    for (i=0;i<=9;i++) {
+    for (i=0;i<10;i++) {
         soma+=vt[i];
-        printf("+(%.0f)", vt[i]);
+        printf("+%f", vt[i+1]);
         if (vt[i]<0){
             neg++;
         }
