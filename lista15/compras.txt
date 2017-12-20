@@ -1,0 +1,3 @@
+Banana 12 3.00
+Cerveja 6 8.50
+Miojo 4 2.30
