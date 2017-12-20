@@ -9,20 +9,20 @@
 
 int main() {
     int i, neg=0;
-    float vt[9], soma;
+    float vt[10], soma=0;
     
-    for (i=0;i<=9;i++){
+    for (i=0;i<10;i++){
         printf("vt[%d]=", i);
         scanf("%f", &vt[i]);
     }
     
-    for (i=0;i<=9;i++) {
+    for (i=0;i<10;i++) {
         soma+=vt[i];
-        printf("+(%.0f)", vt[i]);
+        printf("+(%f)", vt[i]);
         if (vt[i]<0){
             neg++;
         }
     }
-    printf("=%.2f\n# Negativos=%d\n", soma,neg);
+    printf("=%.2f\n# Negativos=%d\n", soma, neg);
     
 }
