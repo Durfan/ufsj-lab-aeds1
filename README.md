@@ -4,9 +4,9 @@
 
 * Introdução à Linguagem C, Variáveis e Leitura e Escrita
 * Escopo, Constantes, Operadores e Precedência
-* Comando(s) de Controle Condicional: if e if-else
+* Comando(s) de Controle Condicional: 'if' e 'if-else'
 * Comando de Controle Condicional: switch
-* Comandos de Repetição (while, do-while e for) e Comandos de Desvio de Controle
+* Comandos de Repetição ('while', 'do-while' e 'for') e Comandos de Desvio de Controle
 * Vetores
 * Vetores de Caracteres (Strings)
 * Funções e Passagens de Parâmetro
