@@ -11,7 +11,7 @@ int SOMA (int v[], int n) {
 
 
 int main (void) {
-  int n, v[100];
+  int n=0, v[100];
 
   printf ("Digite 0 para sair:\n");
 

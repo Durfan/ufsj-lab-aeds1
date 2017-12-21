@@ -8,16 +8,16 @@
 #include <stdio.h>
 
 int main() {
-    float vt[9], temp;
+    float vt[10], temp;
     int i,j;
     
-    for (i=0;i<=9;i++) {
+    for (i=0;i<10;i++) {
         printf("vt[%d]=", i);
         scanf("%f", &vt[i]);
     }
     
-    for (i=0;i<=9;i++){
-        for (j=i+1;j<=9;j++){
+    for (i=0;i<10;i++){
+        for (j=i+1;j<10;j++){
             if (vt[i]>vt[j]){
                 temp=vt[i];
                 vt[i]=vt[j];

@@ -9,11 +9,11 @@
 #include <math.h>
 
 int main() {
-    int vt[9],i;
+    int vt[10],i;
     float maior=+INFINITY,menor=-INFINITY;
 
     
-    for (i=0;i<=9;i++) {
+    for (i=0;i<=10;i++) {
         printf("vetor[%d]=", i);
         scanf("%d", &vt[i]);
         }
@@ -21,7 +21,7 @@ int main() {
     maior=vt[0];
     menor=vt[0];
 
-    for (i=0;i<=9;i++){
+    for (i=0;i<10;i++){
         if (vt[i]>maior){
             maior=vt[i];
         }
