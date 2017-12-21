@@ -14,6 +14,7 @@ int main(void) {
     
     PRINTVETOR (vetor);
 
+    free(vet);
     return 0;
 }
 
@@ -22,16 +23,26 @@ int PRINTVETOR ( int *vet ) {
     int *ptr = vet;
     int i;
    
-    printf ("%d\n", *ptr); *ptr++; // 1
-    printf ("%d\n", *ptr); *ptr++; // 2
-    printf ("%d\n", *ptr); *ptr++; // 3
-    printf ("%d\n", *ptr); *ptr++; // 4
-    printf ("%d\n", *ptr); *ptr++; // 5
-    printf ("%d\n", *ptr); *ptr++; // 6
-    printf ("%d\n", *ptr); *ptr++; // 7
-    printf ("%d\n", *ptr); *ptr++; // 8
-    printf ("%d\n", *ptr); *ptr++; // 9
-    printf ("%d\n", *ptr); *ptr++; // 10
+    printf ("%d\n", *ptr);
+    ptr++; // 1
+    printf ("%d\n", *ptr);
+    ptr++; // 2
+    printf ("%d\n", *ptr);
+    ptr++; // 3
+    printf ("%d\n", *ptr);
+    ptr++; // 4
+    printf ("%d\n", *ptr);
+    ptr++; // 5
+    printf ("%d\n", *ptr);
+    ptr++; // 6
+    printf ("%d\n", *ptr);
+    ptr++; // 7
+    printf ("%d\n", *ptr);
+    ptr++; // 8
+    printf ("%d\n", *ptr);
+    ptr++; // 9
+    printf ("%d\n", *ptr);
+    ptr++; // 10
     
 
     return 0;
