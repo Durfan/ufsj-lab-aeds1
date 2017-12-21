@@ -18,7 +18,7 @@ int main() {
     
     for (i=0;i<10;i++) {
         soma+=vt[i];
-        printf("+(%f)", vt[i]);
+        printf("+%f", vt[i]);
         if (vt[i]<0){
             neg++;
         }
