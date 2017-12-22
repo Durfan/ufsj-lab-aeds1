@@ -2,18 +2,15 @@
 
 int main() {
 
-int n;
+  int n;
 
-  printf ("Digite um #: ");
+  printf ("n: ");
   scanf ("%d", &n);
 
-  if (n%2==0) {
-    printf ("%d e par\n", n);
-  }
-  else {
-    printf ("%d nao e par\n", n);
-  }
+  if ( n%2==0 )
+    printf ("E par\n");
+  else
+    printf ("Nao e par\n");
 
   return 0;
-
 }

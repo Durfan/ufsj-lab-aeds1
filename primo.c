@@ -1,31 +1,27 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
 
-int n,d=2,tru=1;
+  int n, d=2, primo=1;
 
-printf ("Digite um #: ");
-scanf ("%i", &n);
+  printf("Digite um #: ");
+  scanf("%i", &n);
 
-if (n<=1) {
-  tru=0;
-}
-
-printf("Testando divisores...\n");
-
-while (tru==1 && d<=n/2) {
-  printf ("%i : ", d);
-  if (n%d==0) {
-    tru=0;
+  if ( n<=1 ) {
+    primo=0;
   }
-  d++;
-}
 
-if (tru == 1)
-	printf("\n%i e primo \n", n);
-    else
-	printf("\n%i nao e primo \n", n);
+  while ( primo && d<=n/2 ) {
+    if ( n%d==0 ) {
+      primo=0;
+    }
+    d++;
+  }
+
+  if ( primo )
+    printf("E primo \n");
+  else
+    printf("Nao e primo\n");
 
   return 0;
-
 }
