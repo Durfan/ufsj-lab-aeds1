@@ -1,40 +1,29 @@
 #include <stdio.h>
 
-int main(){
+int main(void) {
+  int i,j,n[3],temp;
 
-  int a,b,c;
-
-  printf("#1: ");
-  scanf("%d", &a);
-  printf("#2: ");
-  scanf("%d", &b);
-  printf("#3: ");
-  scanf("%d", &c);
-
-  if (a>=b && a>=c && b>=c) {
-    printf("%d %d %d\n", a, b, c);
+  for ( i=0; i<3; i++) {
+    printf("v[%d]: ", i);
+    scanf("%d", &n[i]);
   }
 
-  if (a>=b && a>=c && b<=c) {
-    printf("%d %d %d\n", a, c, b);
+  for ( i=0; i<3; i++ ){
+    for ( j=i+1; j<3; j++){
+      if ( n[i]>n[j] ) {
+        temp=n[i];
+        n[i]=n[j];
+        n[j]=temp;
+      }
+    }
   }
 
-  if (b>=a && b>=c && a>=b) {
-    printf("%d %d %d\n", b, a, c);
+  i=0;
+  while ( i<3 ) {
+    printf("%d ", n[i]);
+    i++;
   }
 
-  if (b>=a && b>=c && a<=b) {
-    printf("%d %d %d\n", b, c, a);
-  }
-
-  if (c>=a && c>=b && b>=a) {
-    printf("%d %d %d\n", c, b, a);
-  }
-
-  if (c>=a && c>=b && b<=a) {
-    printf("%d %d %d\n", c, a, b);
-  }
-
-
+  printf("\n");
   return 0;
 }
