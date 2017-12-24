@@ -1,6 +1,6 @@
 ## Lista de exercícios AED's I (2017/2) / COI01B
 
-[![CodeFactor](https://www.codefactor.io/repository/github/durfan/lab_aeds1/badge)](https://www.codefactor.io/repository/github/durfan/lab_aeds1)
+[![CodeFactor](https://www.codefactor.io/repository/github/durfan/ufsj-aeds1-lab/badge)](https://www.codefactor.io/repository/github/durfan/ufsj-aeds1-lab)
 
 * Introdução à Linguagem C, Variáveis e Leitura e Escrita
 * Escopo, Constantes, Operadores e Precedência
