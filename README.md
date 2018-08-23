@@ -1,8 +1,5 @@
 ## Lista de exercícios AED's I (2017/2) / COI01B
 
-[![CodeFactor](https://www.codefactor.io/repository/github/durfan/ufsj-aeds1-lab/badge)](https://www.codefactor.io/repository/github/durfan/ufsj-aeds1-lab)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/Durfan/my-stack)
-
 * Introdução à Linguagem C, Variáveis e Leitura e Escrita
 * Escopo, Constantes, Operadores e Precedência
 * Comando(s) de Controle Condicional: `if` e `if`-`else`
